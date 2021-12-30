@@ -1,0 +1,114 @@
+html {
+   display: block;
+}
+
+body {
+   font-family: Helvetica, sans-serif;
+   font-size: 22px;
+   color: seashell;
+   background-color: black;
+   opacity: .9;
+   text-align: center;
+   margin: 0;
+}
+
+.header {
+   width: 100%;
+   height: 69px;
+   position: fixed;
+   border-bottom: 1px solid seashell;
+   display: block;
+   background-color: black;
+   top: 0px;
+}
+
+.logo {
+   height: 50px;
+   float: left;
+   padding: 10px 20px;
+}
+
+.navigation {
+   float: right;
+   height: 100%;
+   margin: 0 auto;
+}
+
+.navigation a {
+   height: 100%;
+   display: table;
+   float: left;
+   padding: 20px;
+}
+
+.navigation li {
+   text-decoration: underline;
+   display: table-cell;
+   vertical-align: middle;
+   height: 100%;
+   color: seashell;
+}
+
+.mission-container {
+   height: 700px;
+   max-width: 1200px;
+   background-image: url("./resources/img-mission-background.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 40px auto;
+   display: flex;
+}
+
+.text-banner {
+   background-color: black;
+   margin: auto;
+   width: 100%;
+}
+
+.tea-container {
+   display: inline-flex;
+   max-width: 1000px;
+   height: auto;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.teacard img {
+   width: 300px;
+   height: 200px;
+   padding: 10px;
+}
+
+.loc-container {
+   height: 500px;
+   max-width: 1200px;
+   margin: 40px auto;
+   padding-top: 10px;
+   background-image: url("./resources/img-locations-background.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.location-box {
+   max-width: 1050px;
+   margin: 15px auto auto auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.locationcard {
+   width: 300px;
+   padding: 20px;
+   background-color: black;
+   flex-basis: 30%;
+   margin-bottom: auto;
+   box-sizing: border-box;
+}
+
+.copyright {
+   float: left;
+   margin-left: 20px;
+}
